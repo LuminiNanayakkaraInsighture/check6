@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hello-testing-1-staging
+  labels:
+    environment-id: env_6c077882-278e-4e9e-8ee8-538d88e9810c
+    project-id: project_0505d45b-8466-40bb-b82c-066fff0df2a1
+    project-name: hello-testing-1
+    environment-name: staging
+    organization-id: org_2ae217e1-d709-401d-94ae-f6d5cdb3ab42
