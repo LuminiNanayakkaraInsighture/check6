@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testing-1-v1-0-0
+  labels:
+    app: testing-1-v1-0-0
+    applicationId: app_9aab2b3f-9f14-407a-b13b-b47a79f38a87
+    version: v1.0.0
+    organizationId: org_2ae217e1-d709-401d-94ae-f6d5cdb3ab42
+    projectId: project_0505d45b-8466-40bb-b82c-066fff0df2a1
+spec:
+  selector:
+    matchLabels:
+      app: testing-1-v1-0-0
+  template:
+    metadata:
+      labels:
+        app: testing-1-v1-0-0
